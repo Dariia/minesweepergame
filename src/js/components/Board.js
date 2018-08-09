@@ -44,7 +44,7 @@ class Dashboard extends React.Component {
         this.props.handleSetBoardData( updatedData );
     }
 
-    revealEmpty( x, y, data) {
+    revealEmpty( x, y, data ) {
         let area = this.props.traverseBoard( x, y, data );
 
         area.map( value => {
