@@ -29,7 +29,7 @@ class Cell extends React.Component {
         let dataProps = this.setDataProps();
         let className = "cell" + ( this.props.value.isRevealed ? "" : " hidden-cell" ) + ( this.props.value.isMine ? " is-mine" : "" ) + ( this.props.value.isFlagged ? " is-flag" : "" );
 
-        return <div ref="cell" onClick={ this.props.onClick } className={ className } onContextMenu={ this.props.cMenu } { ...dataProps } >{this.getValue()}</div>;
+        return <div ref="cell" onClick={ this.props.onClick } className={ className } onContextMenu={ this.props.cMenu } { ...dataProps } >{ this.getValue() }</div>;
     }
 }
 

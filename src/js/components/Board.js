@@ -14,8 +14,8 @@ class Dashboard extends React.Component {
         data.map( datarow => {
             datarow.map( ( dataitem ) => {
                 ( not ? !dataitem[ prop ] : dataitem[ prop ] ) && arr.push( dataitem );
-            });
-        });
+            } );
+        } );
 
         return arr;
     }
@@ -26,8 +26,8 @@ class Dashboard extends React.Component {
         data.map( datarow => {
             datarow.map( ( dataitem ) => {
                 !dataitem.isRevealed && arr.push( dataitem );
-            });
-        });
+            } );
+        } );
 
         return arr;
     }
@@ -38,13 +38,13 @@ class Dashboard extends React.Component {
         updatedData.map( ( datarow ) => {
             datarow.map( ( dataitem ) => {
                 dataitem.isRevealed = true;
-            });
-        });
+            } );
+        } );
 
         this.props.handleSetBoardData( updatedData );
     }
 
-    revealEmpty(x, y, data) {
+    revealEmpty( x, y, data) {
         let area = this.props.traverseBoard( x, y, data );
 
         area.map( value => {
@@ -52,7 +52,7 @@ class Dashboard extends React.Component {
                 data[ value.x ][ value.y ].isRevealed = true;
                 value.isEmpty && this.revealEmpty( value.x, value.y, data );
             }
-        });
+        } );
 
         return data;
     }
@@ -96,7 +96,7 @@ class Dashboard extends React.Component {
             const flagsArr = this.getFilteredArray( 'isFlagged', updatedData );
             isWin = ( JSON.stringify( minesArr ) === JSON.stringify( flagsArr ) );
 
-            if (isWin) {
+            if ( isWin ) {
                 this.revealBoard();
                 this.props.setGameState( 'You win' );
             }
@@ -118,8 +118,8 @@ class Dashboard extends React.Component {
                         {( datarow[ datarow.length - 1 ] === dataitem ) ? <div className="clear" /> : ""}
                     </div>
                 );
-            });
-        });
+            } );
+        } );
     }
 
     render() {

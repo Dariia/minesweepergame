@@ -2,8 +2,8 @@ import React from 'react';
 import { connect } from "react-redux";
 
 const GameStateInfo = ( props ) => {
-   return <div className="game-info">{props.gameState}</div>;
-}
+   return <div className="game-info">{ props.gameState }</div>;
+};
 
 const mapStateToProps = ( state ) => {
     return {

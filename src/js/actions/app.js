@@ -12,44 +12,44 @@ export const BOARD_DATA = 'BOARD_DATA';
 /*
  * action creators
  */
-export function toggleGameOn(state) {
+export function toggleGameOn( state ) {
     return {
         type: START_GAME,
-        state
-    }
+        state,
+    };
 }
 
-export function gameOnOff(gameOn) {
+export function gameOnOff( gameOn ) {
     return {
         type: GAME_ON,
-        gameOn: gameOn
-    }
+        gameOn: gameOn,
+    };
 }
 
-export function updateTime(time) {
+export function updateTime( time ) {
     return {
         type: UPDATE_TIME,
-        time: time
-    }
+        time: time,
+    };
 }
 
-export function gameState(stateTxt) {
+export function gameState( stateTxt ) {
     return {
         type: GAME_STATE,
-        gameStateInfo: stateTxt
-    }
+        gameStateInfo: stateTxt,
+    };
 }
 
-export function setMinesCount(qty) {
+export function setMinesCount( qty ) {
     return {
         type: MINES_QTY,
-        minesQty: qty
-    }
+        minesQty: qty,
+    };
 }
 
-export function setBoardData(data){
+export function setBoardData( data ) {
     return {
         type: BOARD_DATA,
-        boardData: data
-    }
+        boardData: data,
+    };
 }

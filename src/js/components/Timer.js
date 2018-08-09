@@ -22,15 +22,15 @@ class GameTimer extends React.Component {
     }
 
     setTimer() {
-        if (typeof this.props.state.time == 'number') {
+        if ( typeof this.props.state.time == 'number' ) {
             !this.timer && ( this.timer = setInterval( this.updTime, 1000 ) );
         }
     }
 
     updTime() {
-        this.setState({
+        this.setState( {
             time: this.props.state.time,
-        });
+        } );
 
         if ( this.props.state.time == 0 ) {
             this.props.handleGameStart( false );
