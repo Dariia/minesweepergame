@@ -18,6 +18,8 @@ class GameTimer extends React.Component {
     }
 
     componentDidUpdate() {
+        console.log(this.props.state);
+        console.log(!!this.timer);
         this.props.state.gameOn ? this.setTimer() : this.clearTimer();
     }
 
@@ -45,6 +47,7 @@ class GameTimer extends React.Component {
 
     clearTimer() {
         this.timer && clearInterval( this.timer );
+        this.timer = false;
     }
 
     render() {
