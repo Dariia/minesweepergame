@@ -18,7 +18,7 @@ class GameTimer extends React.Component {
     }
 
     componentDidUpdate() {
-        this.setTimer();
+        this.props.state.gameOn ? this.setTimer() : this.clearTimer();
     }
 
     setTimer() {
@@ -53,7 +53,7 @@ class GameTimer extends React.Component {
 }
 
 const mapStateToProps = ( state ) => {
-    return {state};
+    return { state };
 };
 
 const mapDispatchToProps = ( dispatch ) => {

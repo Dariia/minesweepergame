@@ -63,6 +63,7 @@ class Dashboard extends React.Component {
         if ( this.props.state.boardData[ x ][ y ].isMine ) {
             this.revealBoard();
             this.props.setGameState( 'You loose' );
+            this.props.handleGameStart(false);
         }
 
         let updatedData = this.props.state.boardData;
@@ -77,7 +78,7 @@ class Dashboard extends React.Component {
         }
 
         this.props.handleSetBoardData( updatedData );
-        this.props.handleMinesCount( this.props.state.mines - this.getFlags( updatedData ).length );
+        this.props.handleMinesCount( this.props.state.mines - this.getFilteredArray( 'isFlagged', updatedData ).length );
     }
 
     _handleContextMenu( e, x, y ) {
