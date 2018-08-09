@@ -20,18 +20,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../minesweepergame/__tests__/Game.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-215">
-              <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Timer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../minesweepergame/__tests__/Timer.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,11 +35,23 @@
       <file leaf-file-name="Board.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../minesweepergame/src/js/components/Board.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2175">
-              <caret line="145" column="22" lean-forward="true" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../minesweepergame/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -80,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../minesweepergame/src/js/actions/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+            <state relative-caret-position="315">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -134,7 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>react-re</find>
       <find>handleGameStart = ()</find>
       <find>prevTime</find>
       <find>updateTime</find>
@@ -164,6 +163,7 @@
       <find>isRevealed: false</find>
       <find>enzymeWrapper</find>
       <find>__tests</find>
+      <find>reveal</find>
     </findStrings>
     <replaceStrings>
       <replace>getNears</replace>
@@ -217,11 +217,12 @@
         <option value="$PROJECT_DIR$/../minesweepergame/__tests__/Game.js" />
         <option value="$PROJECT_DIR$/../minesweepergame/__tests__/Timer.js" />
         <option value="$PROJECT_DIR$/../minesweepergame/src/js/components/Cell.js" />
-        <option value="$PROJECT_DIR$/../minesweepergame/src/js/components/Board.js" />
         <option value="$PROJECT_DIR$/../minesweepergame/src/js/components/GameState.js" />
         <option value="$PROJECT_DIR$/../minesweepergame/src/js/components/Timer.js" />
         <option value="$PROJECT_DIR$/../minesweepergame/src/js/reducers/app.js" />
         <option value="$PROJECT_DIR$/../minesweepergame/src/js/actions/app.js" />
+        <option value="$PROJECT_DIR$/../minesweepergame/src/js/components/Board.js" />
+        <option value="$PROJECT_DIR$/../minesweepergame/README.md" />
       </list>
     </option>
   </component>
@@ -242,7 +243,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+    <option name="x" value="64" />
     <option name="y" value="101" />
     <option name="width" value="1527" />
     <option name="height" value="895" />
@@ -363,12 +364,12 @@
       <updated>1532350797928</updated>
       <workItem from="1532350799489" duration="93917000" />
       <workItem from="1533304816971" duration="10574000" />
-      <workItem from="1533566264600" duration="40943000" />
+      <workItem from="1533566264600" duration="41718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145434000" />
+    <option name="totallyTimeSpent" value="146209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,6 +382,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="101" width="1527" height="895" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290398" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -389,8 +391,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" weight="0.5435294" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43984962" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20404041" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43984962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20404041" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -737,14 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../minesweepergame/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../minesweepergame/__tests__/Board.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1380">
@@ -792,30 +786,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../minesweepergame/src/js/components/Board.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="145" column="22" lean-forward="true" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../minesweepergame/src/js/components/Game.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="789">
           <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../minesweepergame/src/js/components/GameState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -848,11 +822,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../minesweepergame/src/js/actions/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        <state relative-caret-position="315">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../minesweepergame/src/js/components/GameState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../minesweepergame/src/js/components/Board.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../minesweepergame/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
