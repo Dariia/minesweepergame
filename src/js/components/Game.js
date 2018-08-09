@@ -13,10 +13,10 @@ class Game extends React.Component {
     }
 
     gameStart() {
-        let gameHeight = 5,
-            gameWidth = 5,
-            time = 999000,
-            minesQty = 5,
+        let gameHeight = 8,
+            gameWidth = 8,
+            time = 999,
+            minesQty = 10,
             boardData = this.initBoardData( gameHeight, gameWidth, minesQty );
 
         this.props.handleGameStart( {
