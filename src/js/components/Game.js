@@ -56,7 +56,7 @@ class Game extends React.Component {
     }
 
     getRandomNumber( dimension ) {
-        return Math.floor( (Math.random() * 1000) + 1 ) % dimension;
+        return Math.floor( ( Math.random() * 1000 ) + 1 ) % dimension;
     }
 
     plantMines( data, height, width, mines ) {
@@ -82,7 +82,7 @@ class Game extends React.Component {
             for ( let j = 0; j < width; j++ ) {
                 if ( data[ i ][ j ].isMine !== true ) {
                     let mine = 0;
-                    const area = this.traverseBoard( data[i][j].x, data[i][j].y, data );
+                    const area = this.traverseBoard( data[ i ][ j ].x, data[ i ][ j ].y, data );
                     area.map( value => {
                         if ( value.isMine ) {
                             mine++;
@@ -102,14 +102,14 @@ class Game extends React.Component {
     traverseBoard( x, y, data ) {
         const el = [];
 
-        (x > 0) && el.push(data[x - 1][y]);
-        (x < this.props.height - 1) && el.push(data[x + 1][y]);
-        (y > 0) && el.push(data[x][y - 1]);
-        (y < this.props.width - 1) && el.push(data[x][y + 1]);
-        (x > 0 && y > 0) && el.push(data[x - 1][y - 1]);
-        (x > 0 && y < this.props.width - 1) && el.push(data[x - 1][y + 1]);
-        (x < this.props.height - 1 && y < this.props.width - 1) && el.push(data[x + 1][y + 1]);
-        (x < this.props.height - 1 && y > 0) && el.push(data[x + 1][y - 1]);
+        ( x > 0 ) && el.push( data[ x - 1 ][ y ] );
+        ( x < this.props.height - 1 ) && el.push( data[ x + 1 ][ y ] );
+        ( y > 0 ) && el.push( data[ x ][ y - 1 ] );
+        ( y < this.props.width - 1 ) && el.push( data[ x ][ y + 1 ] );
+        ( x > 0 && y > 0 ) && el.push( data[ x - 1 ][ y - 1 ] );
+        ( x > 0 && y < this.props.width - 1 ) && el.push( data[ x - 1 ][ y + 1 ] );
+        ( x < this.props.height - 1 && y < this.props.width - 1 ) && el.push( data[ x + 1 ][ y + 1 ] );
+        ( x < this.props.height - 1 && y > 0 ) && el.push( data[ x + 1 ][ y - 1 ] );
 
         return el;
     }

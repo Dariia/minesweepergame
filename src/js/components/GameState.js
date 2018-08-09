@@ -1,7 +1,7 @@
 import React from 'react';
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 
-const GameStateInfo = (props) => {
+const GameStateInfo = ( props ) => {
    return <div className="game-info">{props.gameState}</div>;
 }
 
