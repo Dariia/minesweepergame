@@ -48,8 +48,8 @@
         <entry file="file://$PROJECT_DIR$/../minesweepergame/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -364,12 +364,12 @@
       <updated>1532350797928</updated>
       <workItem from="1532350799489" duration="93917000" />
       <workItem from="1533304816971" duration="10574000" />
-      <workItem from="1533566264600" duration="41718000" />
+      <workItem from="1533566264600" duration="41970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146209000" />
+    <option name="totallyTimeSpent" value="146461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,7 +381,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="101" width="1527" height="895" extended-state="0" />
+    <frame x="64" y="101" width="1527" height="895" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290398" />
@@ -391,8 +391,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" weight="0.5435294" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43984962" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20404041" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43984962" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20404041" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -853,8 +853,8 @@
     <entry file="file://$PROJECT_DIR$/../minesweepergame/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
